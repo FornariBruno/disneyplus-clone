@@ -1,0 +1,19 @@
+/* Reset de todos os elementos */
+*, 
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+/* Reset dos links, retira o hyperlink */
+a {
+    text-decoration: none;
+}
+
+/* Reset das listas, retira os pontos antes dos elementos */
+ul {
+    list-style: none;
+}
